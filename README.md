@@ -25,11 +25,11 @@ This is a course with focus of learning concepts in data analysis. All lecture c
 
 | Week | Content                                                                                            |
 | :--: | -------------------------------------------------------------------------------------------------- |
-|  42  | pandas, series, dataframe, indexing, missing data, selection, aggregations                         |
+|  42  | pandas, series, dataframe, indexing, missing data, data extraction, aggregations                   |
 |  43  | merging, concatenation, joining, groupby, filter, apply, multiply index series, strings, **lab 1** |
 |  44  | regular expression, PCA - dimension reduction, data formats, high performance pandas, **project**  |
 |  45  | GDPR, KPI, anonymize data, **project**                                                             |
-|  46  | **project**                                                                                            |
+|  46  | **project**                                                                                        |
 
 </details>
 
