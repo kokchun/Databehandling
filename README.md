@@ -21,15 +21,15 @@ This is a course with focus of learning concepts in data analysis. All lecture c
 <details open>
   
 <summary id="schedule">Click to see/hide schedule</summary>
-<!-- <sup>[1](#fn1)</sup> -->
 
-| Week | Content                                                                                            |
-| :--: | -------------------------------------------------------------------------------------------------- |
-|  42  | pandas, series, dataframe, indexing, missing data, data extraction, aggregations                   |
-|  43  | merging, concatenation, joining, groupby, filter, apply, multiply index series, strings, **lab 1** |
-|  44  | regular expression, PCA - dimension reduction, data formats, high performance pandas, **project**  |
-|  45  | GDPR, KPI, anonymize data, **project**                                                             |
-|  46  | **project**                                                                                        |
+
+|     Week     | Content                                                                    |
+| :----------: | -------------------------------------------------------------------------- |
+| [42](#week1) | pandas, series, dataframe, index, missing data, selection, aggregate       |
+| [43](#week2) | merge, concatenate, join, groupby, filter, sort, apply, strings, **lab 1** |
+| [44](#week3) | dates, regular expression, data formats, high performance, **project**     |
+| [45](#week4) | PCA, GDPR, KPI, anonymize data, **project**                                |
+| [46](#week5) | **project**                                                                |
 
 </details>
 
@@ -48,7 +48,35 @@ When installing softwares, unless anything else is stated below, just click next
 
 Setup :wrench:
 
+1. Create a new folder for this course 
+2. Create a new pipenvironment with 
+   ```python 
+   pipenv shell
+   ```  
+3. Install **numpy**, **pandas**, **matplotlib** and **seaborn** in this pipenv: 
+   ```python 
+   pipenv install numpy 
+   pipenv install pandas
+   pipenv install matplotlib
+   pipenv install seaborn
+   ``` 
+
 Video guides :video_camera:
+
+- [pipenv video - introduction][pipenv_vid]
+- [pandas video - loading data][pandas_vid_load_data]
+- [pandas video - DataFrame and Series][pandas_vid_df]
+- [pandas video - indexes][pandas_vid_index]
+- [pandas video - missing data][pandas_vid_nan]
+
+
+
+[pipenv_vid]: https://www.youtube.com/watch?v=6Qmnh5C4Pmo
+[pandas_vid_load_data]: https://www.youtube.com/watch?v=ZyhVh-qRZPA&t=450s
+[pandas_vid_df]: https://www.youtube.com/watch?v=zmdjNSmRXF4
+[pandas_vid_index]: https://www.youtube.com/watch?v=W9XjRYFkkyw&list=RDCMUCCezIgC97PvUuR4_gbFUs5g&index=3
+[pandas_vid_nan]: https://www.youtube.com/watch?v=KdmPHEnPJPs&list=RDCMUCCezIgC97PvUuR4_gbFUs5g&index=9
+
 
 Theory :book:
 
@@ -65,6 +93,15 @@ Exercises :running:
 Setup :wrench:
 
 Video guides :video_camera:
+- [pandas video - filtering][pandas_vid_filter]
+- [pandas video - update rows and columns][pandas_vid_update_rows]
+- [pandas video - sorting][pandas_vid_sort]
+- [pandas video - grouping and aggregating data][pandas_vid_group]
+
+[pandas_vid_filter]: https://www.youtube.com/watch?v=Lw2rlcxScZY&list=RDCMUCCezIgC97PvUuR4_gbFUs5g&index=4
+[pandas_vid_update_rows]: https://www.youtube.com/watch?v=DCDe29sIKcE&list=RDCMUCCezIgC97PvUuR4_gbFUs5g&index=5
+[pandas_vid_sort]: https://www.youtube.com/watch?v=T11QYVfZoD0&list=RDCMUCCezIgC97PvUuR4_gbFUs5g&index=7
+[pandas_vid_group]: https://www.youtube.com/watch?v=txMdrV1Ut64&list=RDCMUCCezIgC97PvUuR4_gbFUs5g&index=8
 
 Theory :book:
 
@@ -80,6 +117,12 @@ Setup :wrench:
 
 Video guides :video_camera:
 
+- [pandas video - dates and time series][pandas_vid_dates]
+- [pandas video - data formats][pandas_vid_formats]
+
+[pandas_vid_dates]: https://www.youtube.com/watch?v=UFuo7EHI8zc&list=RDCMUCCezIgC97PvUuR4_gbFUs5g&index=10
+[pandas_vid_formats]: https://www.youtube.com/watch?v=N6hyN6BW6ao&list=RDCMUCCezIgC97PvUuR4_gbFUs5g&index=11
+
 Theory :book:
 
 Exercises :running:
@@ -90,11 +133,12 @@ Exercises :running:
 
 <summary id = "week4"><b >Week 45</b></summary>
 
-Setup :wrench:
-
 Video guides :video_camera:
 
 Theory :book:
+[PCA - Principal Components Analysis][pca_example]
+
+[pca_example]: https://towardsdatascience.com/principal-component-analysis-pca-79d228eb9d24
 
 Exercises :running:
 
