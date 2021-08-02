@@ -1,5 +1,7 @@
 # Databehandling (2021)
 
+## UNDER CONSTRUCTION!!
+
 This is a course with focus of learning concepts in data analysis. All lecture codes and exercises can be found in the course [Github repo][ghr].
 
 [ghr]: https://github.com/kokchun/Databehandling-21
