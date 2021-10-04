@@ -30,7 +30,7 @@ This is a course with focus of learning concepts in data analysis. All lecture c
 | [42](#week1) | pandas, series, dataframe, index, missing data, selection, aggregate       |
 | [43](#week2) | merge, concatenate, join, groupby, filter, sort, apply, strings, **lab 1** |
 | [44](#week3) | dates, regular expression, data formats, high performance, **project**     |
-| [45](#week4) | PCA, GDPR, KPI, anonymize data, **project**                                |
+| [45](#week4) | GDPR, KPI, anonymize data, **project**                                     |
 | [46](#week5) | **project**                                                                |
 
 </details>
