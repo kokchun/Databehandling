@@ -8,8 +8,8 @@ This is a course with focus of learning concepts in data analysis. All lecture c
 
 ## Contents
 
-- [Schedule]()
-- [Resources]() 
+- [Schedule](https://github.com/kokchun/Databehandling-21/blob/main/Schedule_Databehandling_AI21.md)
+- [Resources](https://github.com/kokchun/Databehandling-21/tree/main/Resources) 
 
 ## Schedule
 
