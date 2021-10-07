@@ -8,15 +8,8 @@ This is a course with focus of learning concepts in data analysis. All lecture c
 
 ## Contents
 
-- [Schedule](#schedule)
-- [Resources](#resources) <details> <summary> Weeks </summary>
-  - [Week 42](#week1)
-  - [Week 43](#week2)
-  - [Week 44](#week3)
-  - [Week 45](#week4)
-  - [Week 46](#week5)
-
-</details>
+- [Schedule]()
+- [Resources]() 
 
 ## Schedule
 
@@ -24,8 +17,8 @@ This is a course with focus of learning concepts in data analysis. All lecture c
   
 <summary id="schedule">Click to see/hide schedule</summary>
 
-|     Week     | Content                                                                           |
-| :----------: | --------------------------------------------------------------------------------- |
+|    Week     | Content                                                                           |
+| :---------: | --------------------------------------------------------------------------------- |
 | [42][week1] | series, dataframe, missing data, selection, filtering, aggregate, seaborn         |
 | [43](week2) | merge, concatenate, join, groupby, sort, apply, strings, plotly express **lab 1** |
 | [44](week3) | dates, regular expression, data formats, dash, high performance, **project**      |

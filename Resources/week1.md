@@ -1,5 +1,7 @@
 # Week 42 - Resources
 
+[Back to main page :house:](https://github.com/kokchun/Databehandling-21)
+
 ## Setup :wrench:
 
 1. Create a new folder for this course 
