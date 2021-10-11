@@ -1,14 +1,10 @@
 # Databehandling (2021)
 
-## UNDER CONSTRUCTION!!
-
 This is a course with focus of learning concepts in data analysis. All lecture codes and exercises can be found in the course [Github repo][ghr].
 
 [ghr]: https://github.com/kokchun/Databehandling-21
 
-## Contents
-
-- [Schedule](https://github.com/kokchun/Databehandling-21/blob/main/Schedule_Databehandling_AI21.md)
+- [Class schedule](https://github.com/kokchun/Databehandling-21/blob/main/Schedule_Databehandling_AI21.md)
 - [Resources](https://github.com/kokchun/Databehandling-21/tree/main/Resources) 
 
 ## Schedule
