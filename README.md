@@ -5,7 +5,7 @@ This is a course with focus of learning concepts in data analysis. All lecture c
 [ghr]: https://github.com/kokchun/Databehandling-21
 
 - [Class schedule](https://github.com/kokchun/Databehandling-21/blob/main/Schedule_Databehandling_AI21.md)
-- [Resources](https://github.com/kokchun/Databehandling-21/tree/main/Resources) 
+- [Resources](https://github.com/kokchun/Databehandling-21/tree/main/Resources)
 
 ## Schedule
 
@@ -13,13 +13,13 @@ This is a course with focus of learning concepts in data analysis. All lecture c
   
 <summary id="schedule">Click to see/hide schedule</summary>
 
-|    Week     | Content                                                                           |
-| :---------: | --------------------------------------------------------------------------------- |
-| [42][week1] | series, dataframe, missing data, selection, filtering, aggregate, seaborn         |
-| [43](week2) | merge, concatenate, join, groupby, sort, apply, strings, plotly express **lab 1** |
-| [44](week3) | dates, regular expression, data formats, dash, high performance, **project**      |
-| [45](week4) | GDPR, KPI, anonymize data, callbacks, bootstrap **project**                       |
-| [46](week5) | **project**                                                                       |
+|    Week     | Content                                                                            |
+| :---------: | ---------------------------------------------------------------------------------- |
+| [42][week1] | series, dataframe, missing data, selection, filtering, aggregate, groupby, seaborn |
+| [43](week2) | merge, concatenate, join, sort, apply, strings, plotly express **lab 1**           |
+| [44](week3) | dates, regular expression, data formats, dash, high performance, **project**       |
+| [45](week4) | GDPR, KPI, anonymize data, callbacks, bootstrap **project**                        |
+| [46](week5) | **project**                                                                        |
 
 </details>
 
