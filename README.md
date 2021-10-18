@@ -16,10 +16,10 @@ This is a course with focus of learning concepts in data analysis. All lecture c
 |    Week     | Content                                                                            |
 | :---------: | ---------------------------------------------------------------------------------- |
 | [42][week1] | series, dataframe, missing data, selection, filtering, aggregate, groupby, seaborn |
-| [43](week2) | merge, concatenate, join, sort, apply, strings, plotly express **lab 1**           |
-| [44](week3) | dates, regular expression, data formats, dash, high performance, **project**       |
-| [45](week4) | GDPR, KPI, anonymize data, callbacks, bootstrap **project**                        |
-| [46](week5) | **project**                                                                        |
+| [43][week2] | merge, concatenate, join, sort, apply, strings, plotly express **lab 1**           |
+| [44][week3] | dates, regex, data formats, dash, high performance, KPI, **lab 1**, **project**    |
+| [45][week4] | GDPR, anonymize data, callbacks, bootstrap, deployment **project**                 |
+| [46][week5] | **project**, **seminar**                                                           |
 
 </details>
 
