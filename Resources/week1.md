@@ -9,12 +9,14 @@
    ```python 
    pipenv shell
    ```  
-3. Install **numpy**, **pandas**, **matplotlib** and **seaborn** in this pipenv: 
+3. Install **numpy**, **pandas**, **matplotlib**, **seaborn**, **openpyxl** and **ipykernel** in this pipenv: 
    ```python 
    pipenv install numpy 
    pipenv install pandas
    pipenv install matplotlib
    pipenv install seaborn
+   pipenv install openpyxl 
+   pipenv install ipykernel
    ``` 
 
 ## Video guides :video_camera:
