@@ -13,6 +13,7 @@ plotly-express = "*"
 openpyxl = "*"
 numpy = "*"
 nbformat = "*"
+lxml = "*"
 
 [dev-packages]
 
