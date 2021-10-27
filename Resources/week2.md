@@ -20,8 +20,16 @@
 
 ## Theory :book:
 
-COMING RESOURCES HERE
+- [merge, join, concat guide](https://pandas.pydata.org/docs/user_guide/merging.html)
+- [merge](https://pandas.pydata.org/docs/reference/api/pandas.merge.html)
+- [concat](https://pandas.pydata.org/docs/reference/api/pandas.concat.html?highlight=concat)
+- [join](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.join.html)
+- [append](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.append.html)
+
+## Lecture notes :book:
+
+- [Lec notes - merging](https://github.com/kokchun/Databehandling-21/blob/main/Lectures/L3-merge.ipynb)
 
 ## Exercises :running:
 
-EXERCISE coming
+- [exercise merging](https://github.com/kokchun/Databehandling-21/blob/main/Exercises/E02_merging.ipynb)
