@@ -13,8 +13,12 @@
 
 ## Theory :book:
 
-COMING RESOURCES HERE
+- [Pandas datetime](https://pandas.pydata.org/docs/reference/api/pandas.to_datetime.html)
+- [Install dash](https://dash.plotly.com/installation)
+- [Dash layout](https://dash.plotly.com/layout)
+- [Dash callbacks](https://dash.plotly.com/basic-callbacks)
 
 ## Exercises :running:
 
-EXERCISE coming
+- Work with the lab
+- Start with the project
