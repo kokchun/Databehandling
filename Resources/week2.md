@@ -20,6 +20,7 @@
 
 ## Theory :book:
 
+- [read_html()](https://pandas.pydata.org/docs/reference/api/pandas.read_html.html)
 - [merge, join, concat guide](https://pandas.pydata.org/docs/user_guide/merging.html)
 - [merge](https://pandas.pydata.org/docs/reference/api/pandas.merge.html)
 - [concat](https://pandas.pydata.org/docs/reference/api/pandas.concat.html?highlight=concat)
