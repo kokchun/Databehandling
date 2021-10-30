@@ -2,6 +2,14 @@
 
 [Back to main page :house:](https://github.com/kokchun/Databehandling-21)
 
+## Setup
+
+```py
+pipenv install dash
+pipenv install python-dotenv
+pipenv install requests
+```
+
 ## Video guides :video_camera:
 
 - [pandas video - dates and time series][pandas_vid_dates]
