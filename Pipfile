@@ -14,6 +14,8 @@ openpyxl = "*"
 numpy = "*"
 nbformat = "*"
 lxml = "*"
+python-dotenv = "*"
+requests = "*"
 
 [dev-packages]
 
