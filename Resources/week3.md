@@ -14,9 +14,13 @@ pipenv install requests
 
 - [pandas video - dates and time series][pandas_vid_dates]
 - [pandas video - data formats][pandas_vid_formats]
+- [dash dropdown](https://www.youtube.com/watch?v=UYH_dNSX1DM)
+- [dash radioitems](https://www.youtube.com/watch?v=FuJOsZgo4nU)
+- [dash callback](https://www.youtube.com/watch?v=mTsZL-VmRVE)
 
 [pandas_vid_dates]: https://www.youtube.com/watch?v=UFuo7EHI8zc&list=RDCMUCCezIgC97PvUuR4_gbFUs5g&index=10
 [pandas_vid_formats]: https://www.youtube.com/watch?v=N6hyN6BW6ao&list=RDCMUCCezIgC97PvUuR4_gbFUs5g&index=11
+
 
 
 ## Theory :book:
@@ -25,6 +29,8 @@ pipenv install requests
 - [Install dash](https://dash.plotly.com/installation)
 - [Dash layout](https://dash.plotly.com/layout)
 - [Dash callbacks](https://dash.plotly.com/basic-callbacks)
+- [dcc - Dash Core Components](https://dash.plotly.com/dash-core-components)
+- [Dash html components](https://dash.plotly.com/dash-html-components)
 
 ## Exercises :running:
 
