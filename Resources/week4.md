@@ -5,12 +5,12 @@
 ## Video guides :video_camera:
 
 
+
 ## Theory :book:
 
 - [Anonymization using hashlib](https://towardsdatascience.com/anonymise-sensitive-data-in-a-pandas-dataframe-column-with-hashlib-8e7ef397d91f)
 - 
-COMING RESOURCES HERE
 
 ## Exercises :running:
 
-EXERCISE coming
+- Work with the project
