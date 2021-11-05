@@ -15,3 +15,17 @@ In this update we use the client-side storage, i.e. the user's browser for stori
 ## Styling dash app
 
 For styling this app we mostly used dash bootstrap components, but also some minor css-styling. 
+
+## Deployment
+
+Deploy on Heroku: 
+
+1. Create account on [Heroku](https://www.heroku.com)
+2. Install [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) 
+3. Add this line 
+```py
+server = app.server
+```
+under app = dash.Dash(\_\_name\_\_, ...).
+
+4. TODO: continue writing instructions
