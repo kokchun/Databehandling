@@ -2,6 +2,11 @@
 
 [Back to main page :house:](https://github.com/kokchun/Databehandling-21)
 
+## Setup :wrench:
+```py
+pipenv install dash-bootstrap-components
+```
+
 ## Video guides :video_camera:
 
 - [Dashboard Bootstrap Components](https://www.youtube.com/watch?v=0mfIK8zxUds)
@@ -11,6 +16,8 @@
 ## Theory :book:
 
 - [Anonymization using hashlib](https://towardsdatascience.com/anonymise-sensitive-data-in-a-pandas-dataframe-column-with-hashlib-8e7ef397d91f)
+- [Dash Bootstrap Components](https://dash-bootstrap-components.opensource.faculty.ai/docs/)
+- [Bootstrap cheatsheet](https://hackerthemes.com/bootstrap-cheatsheet/)
 - [Deploy on Heroku](https://dash.plotly.com/deployment)
 - [dcc.Store](https://dash.plotly.com/sharing-data-between-callbacks)
 - [Client-side callback](https://dash.plotly.com/clientside-callbacks)
