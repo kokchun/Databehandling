@@ -17,6 +17,7 @@ pipenv install dash-bootstrap-components
 
 - [Anonymization using hashlib](https://towardsdatascience.com/anonymise-sensitive-data-in-a-pandas-dataframe-column-with-hashlib-8e7ef397d91f)
 - [Dash Bootstrap Components](https://dash-bootstrap-components.opensource.faculty.ai/docs/)
+- [Dash Bootstrap Components examples](https://dash-bootstrap-components.opensource.faculty.ai/examples/)
 - [Bootstrap cheatsheet](https://hackerthemes.com/bootstrap-cheatsheet/)
 - [Deploy on Heroku](https://dash.plotly.com/deployment)
 - [dcc.Store](https://dash.plotly.com/sharing-data-between-callbacks)
