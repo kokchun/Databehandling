@@ -26,6 +26,20 @@ pipenv install bottleneck
 - [Client-side callback](https://dash.plotly.com/clientside-callbacks)
 - [High performance pandas](https://pandas.pydata.org/pandas-docs/stable/user_guide/enhancingperf.html)
 
+
+<details>
+<summary> More on performance</summary>
+
+Some of these packages will be touched later on during the education, but mostly they are for reference when needed in your future work. However note that you should always consider readability, fast development. High performance should be considered when the situation requires it, so that it doesn't slow down the development.
+
+- [Numexpr](https://github.com/pydata/numexpr)
+- [Cython](https://cython.readthedocs.io/en/latest/src/tutorial/cython_tutorial.html)
+- [Dask](https://dask.org/)
+- [Numba](http://numba.pydata.org/)
+- [Vaex](https://vaex.io/)
+
+</details>
+
 ## Exercises :running:
 
 - Work with the project
