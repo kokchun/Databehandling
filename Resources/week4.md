@@ -5,6 +5,8 @@
 ## Setup :wrench:
 ```py
 pipenv install dash-bootstrap-components
+pipenv install numexpr
+pipenv install bottleneck
 ```
 
 ## Video guides :video_camera:
@@ -22,7 +24,7 @@ pipenv install dash-bootstrap-components
 - [Deploy on Heroku](https://dash.plotly.com/deployment)
 - [dcc.Store](https://dash.plotly.com/sharing-data-between-callbacks)
 - [Client-side callback](https://dash.plotly.com/clientside-callbacks)
-
+- [High performance pandas](https://pandas.pydata.org/pandas-docs/stable/user_guide/enhancingperf.html)
 
 ## Exercises :running:
 
