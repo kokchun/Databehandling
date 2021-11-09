@@ -26,32 +26,65 @@ slider_marks = {i: mark for i, mark in enumerate(
      "1 year", "5 years", "Max"]
 )}
 
-app = dash.Dash(__name__)
+stylesheets = [dbc.themes.MATERIA]
+app = dash.Dash(__name__, external_stylesheets=stylesheets,
+                meta_tags=[dict(name="viewport", content="width=device-width, initial-scale=1.0")])
 
-app.layout = html.Div([
-    html.H1("Stocks viewer"),
-    html.P("Choose a stock"),
-    dcc.Dropdown(id='stock-picker-dropdown', className='',
-                 options=stock_options_dropdown,
-                 value='AAPL'
-                 ),
-    html.P(id="highest-value"),
-    html.P(id="lowest-value"),
-    dcc.RadioItems(id='ohlc-radio', className='',
-                   options=ohlc_options,
-                   value='close'
-                   ),
-    dcc.Graph(id='stock-graph', className=''),
+app.layout = dbc.Container([
 
-    dcc.Slider(id='time-slider', className='',
-               min=0, max=6,
-               step=None,
-               value=2,
-               marks=slider_marks),
+    dbc.Card([
+        dbc.CardBody(html.H1("Stocky dashboard",
+                             className="text-primary m-3"))
+    ], className="mt-3"),
+
+    dbc.Row([
+        dbc.Col(html.P("Choose a stock"), className="mt-1",
+                lg="4", xl={"size": 2, "offset": 2}),
+        dbc.Col(
+            dcc.Dropdown(id='stock-picker-dropdown', className='',
+                         options=stock_options_dropdown,
+                         value='AAPL'
+                         ),
+            lg="4", xl="3"),
+        dbc.Col(
+            dbc.Card(
+                dcc.RadioItems(id='ohlc-radio', className='m-1',
+                               options=ohlc_options,
+                               value='close'
+                               ),
+            ), lg="4", xl="3"
+        )
+    ], className="mt-4"),
+
+    dbc.Row([
+        dbc.Col([
+                dcc.Graph(id='stock-graph', className=''),
+
+                dcc.Slider(id='time-slider', className='',
+                           min=0, max=6,
+                           step=None,
+                           value=2,
+                           marks=slider_marks),
+                ], lg={"size": "6", "offset": 1}, xl={"size": "6", "offset": 1}),
+
+        dbc.Col([
+            dbc.Card([
+                html.H2("Highest value", className="h5 mt-3 mx-3"),
+                html.P(id="highest-value", className="mx-3 h1 text-success"),
+            ], className="mt-5 w-50"),
+
+            dbc.Card([
+                html.H2("Lowest value", className="h5 mt-3 mx-3"),
+                html.P(id="lowest-value", className="mx-3 h1 text-danger"),
+            ], className="mt-5 w-50")
+        ])
+    ]),
+
+
 
     # stores an intermediate value on clients browser for sharing between callbacks
     dcc.Store(id="filtered-df")
-])
+], fluid=True)
 
 
 @app.callback(Output("filtered-df", "data"),
@@ -73,6 +106,7 @@ def filter_df(stock, time_index):
 
     return dff.to_json()
 
+
 @app.callback(
     Output("stock-graph", "figure"),
     Input("filtered-df", "data"),
@@ -80,9 +114,9 @@ def filter_df(stock, time_index):
     Input("ohlc-radio", "value")
 )
 def update_graph(json_df, stock, ohlc):
-    
-    dff = pd.read_json(json_df) 
-    fig = px.line(dff, x=dff.index, y=ohlc, title = symbol_dict[stock])
+
+    dff = pd.read_json(json_df)
+    fig = px.line(dff, x=dff.index, y=ohlc, title=symbol_dict[stock])
 
     return fig  # fig object goes into Output property i.e. figure property
 
@@ -94,11 +128,11 @@ def update_graph(json_df, stock, ohlc):
     Input("ohlc-radio", "value")
 )
 def highest_lowest_value(json_df, ohlc):
-    
+
     dff = pd.read_json(json_df)
-    highest_value = f"High {dff[ohlc].max():.1f}"
-    lowest_value = f"Low {dff[ohlc].min():.1f}"
-    
+    highest_value = f"{dff[ohlc].max():.1f}"
+    lowest_value = f"{dff[ohlc].min():.1f}"
+
     return highest_value, lowest_value
 
 
