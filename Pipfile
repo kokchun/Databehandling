@@ -17,7 +17,11 @@ lxml = "*"
 python-dotenv = "*"
 requests = "*"
 dash = "*"
+<<<<<<< HEAD
 numexpr = "*"
+=======
+gunicorn = "*"
+>>>>>>> d05304ff00dadd6de6fe66a6db29f9f1226ea52a
 
 [dev-packages]
 
